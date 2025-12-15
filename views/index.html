@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ProBlog | Professional Blogging Platform</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>ProBlog</h1>
+    <p>Write • Publish • Inspire</p>
+  </header>
+
+  <main>
+    <section class="form-card">
+      <input id="title" placeholder="Blog title" />
+      <textarea id="content" placeholder="Write your thoughts here..."></textarea>
+      <button onclick="addPost()">Publish</button>
+    </section>
+
+    <section id="posts" class="posts"></section>
+  </main>
+
+  <footer>
+    <p>© 2025 ProBlog. Built with DevOps CI/CD.</p>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
